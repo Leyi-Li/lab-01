@@ -1,0 +1,73 @@
+.box-1 p{
+    padding-top:32.5px;
+}
+
+.box-2 p{
+    padding-top:75px;
+}
+
+.box-3 p{
+    padding-top:62.5px;
+}
+
+.box-4 p{
+    padding-top:62.5px;
+}
+
+.box-5 p{
+    padding-top:125px;
+}
+
+.box-6 p{
+    padding-top:125px;
+}
+
+.box-7 p{
+    padding-top:125px;
+}
+
+.box-8 p{
+    padding-top:125px;
+}
+
+.box-9 p{
+    padding-top:40px;
+}
+
+@media screen and (min-width: 768px){
+    .box-1 p{
+        padding-top:50px;
+    }
+
+    .box-2 p{
+        padding-top:300px;
+    }
+
+    .box-3 p{
+        padding-top:100px;
+    }
+
+    .box-4 p{
+        padding-top:100px;
+    }
+
+    .box-5 p{
+        padding-top:125px;
+    }
+
+    .box-6 p{
+        padding-top:125px;
+    }
+
+    .box-7 p{
+        padding-top:125px;
+    }
+
+    .box-8 p{
+        padding-top:125px;
+    }
+
+    .box-9 p{
+        padding-top:75px;
+    }
+}
