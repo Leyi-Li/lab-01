@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+
+.box-1{
+    background-color: aqua;
+}
+
+.box-2{
+    background-color: rgb(23, 116, 116);
+}
+
+.box-3{
+    background-color: rgb(16, 73, 126);
+}
+
+.box-4{
+    background-color: rgb(13, 18, 87);
+}
+
+.box-5{
+    background-color: rgb(109, 18, 184);
+}
+
+.box-6{
+    background-color: rgb(57, 13, 107);
+}
+
+.box-7{
+    background-color: rgb(221, 40, 167);
+}
+
+.box-8{
+    background-color: rgb(219, 23, 131);
+}
+
+.box-9{
+    background-color: rgb(180, 32, 52);
+}
