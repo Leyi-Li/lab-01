@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
 }
@@ -52,64 +52,37 @@ body{
 }
 .box-h{
     width: 50%;
-}
+} */
 
 
 @media screen and (min-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 100px 200px 250px 150px;
+        grid-template-areas: "header header header header header";
+    }
+
     .box-a{
-        width:100%;
-        height:100px;
+        grid-area: header;
     }
     
     .box-b{
-        width:20%;
-        height:600px;
-        float:left;
+        grid-column: 1 / 2;
+        grid-row:2 / 5;
+        align-self:stretch;
     }
 
     .box-c{
-        width:40%;
-        height:200px;
-        float:left;
+        grid-column: 2 / 4;
     }
     
     .box-d{
-        width:40%;
-        height:200px;
-        float:left;
+        grid-column: 4/6;
     }
     
-    .box-efgh{
-        height:450px;
-    }
-    
-    .box-e{
-        width:20%;
-        height:250px;
-        float:left;
-    }
-    
-    .box-f{
-        width:20%;
-        height:250px;
-        float: left;
-    }
-    
-    .box-g{
-        width:20%;
-        height:250px;
-        float:left;
-    }
-    
-    .box-h{
-        width:20%;
-        height:250px;
-        float: left;
-    }
     
     .box-i{
-        width:80%;
-        height:150px;
-        float:left;
+        grid-column: 2/6;
     }
 }
