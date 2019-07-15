@@ -1,120 +1,88 @@
-*{
+/* *{
     margin:0;
     padding:0;
 }
+
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
 }
 
-.box-1{
-    width:100%;
+.box-ef{
+    display: flex;
+    flex-direction: row;
+    height:250px;
+}
+
+.box-gh{
+    display:flex;
+    flex-direction: row;
+    height:250px;
+}
+
+.box-a{
     height:75px;
 }
 
-.box-2{
-    width:100%;
+.box-b{
     height:150px;
 }
 
-.box-3{
-    width:100%;
+.box-c{
     height:125px;
 }
 
-.box-4{
-    width:100%;
+.box-d{
     height:125px;
 }
 
-.hugeBox{
-    height:500px;
-    width:100%;
-}
-
-.box-5{
-    width:50%;
-    height:250px;
-    float:left;
-}
-
-.box-6{
-    width:50%;
-    height:250px;
-    float: left;
-}
-
-.box-7{
-    width:50%;
-    height:250px;
-    float:left;
-}
-
-.box-8{
-    width:50%;
-    height:250px;
-    float: left;
-}
-
-.box-9{
-    width:100%;
+.box-i{
     height:80px;
 }
 
+.box-e{
+    width: 50%;
+}
+.box-f{
+    width: 50%;
+}
+.box-g{
+    width: 50%;
+}
+.box-h{
+    width: 50%;
+} */
+
+
 @media screen and (min-width: 768px){
-    .box-1{
-        width:100%;
-        height:100px;
-    }
-    
-    .box-2{
-        width:20%;
-        height:600px;
-        float:left;
+    body{
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 100px 200px 250px 150px;
+        grid-template-areas: "header header header header header";
     }
 
-    .box-3{
-        width:40%;
-        height:200px;
-        float:left;
+    .box-a{
+        grid-area: header;
     }
     
-    .box-4{
-        width:40%;
-        height:200px;
-        float:left;
+    .box-b{
+        grid-column: 1 / 2;
+        grid-row:2 / 5;
+        align-self:stretch;
+    }
+
+    .box-c{
+        grid-column: 2 / 4;
     }
     
-    .hugeBox{
-        height:450px;
+    .box-d{
+        grid-column: 4/6;
     }
     
-    .box-5{
-        width:20%;
-        height:250px;
-        float:left;
-    }
     
-    .box-6{
-        width:20%;
-        height:250px;
-        float: left;
-    }
-    
-    .box-7{
-        width:20%;
-        height:250px;
-        float:left;
-    }
-    
-    .box-8{
-        width:20%;
-        height:250px;
-        float: left;
-    }
-    
-    .box-9{
-        width:80%;
-        height:150px;
-        float:left;
+    .box-i{
+        grid-column: 2/6;
     }
 }
