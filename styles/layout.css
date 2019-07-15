@@ -2,117 +2,112 @@
     margin:0;
     padding:0;
 }
+
 body{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
 }
 
-.box-1{
-    width:100%;
+.box-ef{
+    display: flex;
+    flex-direction: row;
+    height:250px;
+}
+
+.box-gh{
+    display:flex;
+    flex-direction: row;
+    height:250px;
+}
+
+.box-a{
     height:75px;
 }
 
-.box-2{
-    width:100%;
+.box-b{
     height:150px;
 }
 
-.box-3{
-    width:100%;
+.box-c{
     height:125px;
 }
 
-.box-4{
-    width:100%;
+.box-d{
     height:125px;
 }
 
-.hugeBox{
-    height:500px;
-    width:100%;
-}
-
-.box-5{
-    width:50%;
-    height:250px;
-    float:left;
-}
-
-.box-6{
-    width:50%;
-    height:250px;
-    float: left;
-}
-
-.box-7{
-    width:50%;
-    height:250px;
-    float:left;
-}
-
-.box-8{
-    width:50%;
-    height:250px;
-    float: left;
-}
-
-.box-9{
-    width:100%;
+.box-i{
     height:80px;
 }
 
+.box-e{
+    width: 50%;
+}
+.box-f{
+    width: 50%;
+}
+.box-g{
+    width: 50%;
+}
+.box-h{
+    width: 50%;
+}
+
+
 @media screen and (min-width: 768px){
-    .box-1{
+    .box-a{
         width:100%;
         height:100px;
     }
     
-    .box-2{
+    .box-b{
         width:20%;
         height:600px;
         float:left;
     }
 
-    .box-3{
+    .box-c{
         width:40%;
         height:200px;
         float:left;
     }
     
-    .box-4{
+    .box-d{
         width:40%;
         height:200px;
         float:left;
     }
     
-    .hugeBox{
+    .box-efgh{
         height:450px;
     }
     
-    .box-5{
+    .box-e{
         width:20%;
         height:250px;
         float:left;
     }
     
-    .box-6{
+    .box-f{
         width:20%;
         height:250px;
         float: left;
     }
     
-    .box-7{
+    .box-g{
         width:20%;
         height:250px;
         float:left;
     }
     
-    .box-8{
+    .box-h{
         width:20%;
         height:250px;
         float: left;
     }
     
-    .box-9{
+    .box-i{
         width:80%;
         height:150px;
         float:left;

@@ -1,73 +1,73 @@
-.box-1 p{
+.box-a p{
     padding-top:32.5px;
 }
 
-.box-2 p{
+.box-b p{
     padding-top:75px;
 }
 
-.box-3 p{
+.box-c p{
     padding-top:62.5px;
 }
 
-.box-4 p{
+.box-d p{
     padding-top:62.5px;
 }
 
-.box-5 p{
+.box-e p{
     padding-top:125px;
 }
 
-.box-6 p{
+.box-f p{
     padding-top:125px;
 }
 
-.box-7 p{
+.box-g p{
     padding-top:125px;
 }
 
-.box-8 p{
+.box-h p{
     padding-top:125px;
 }
 
-.box-9 p{
+.box-i p{
     padding-top:40px;
 }
 
 @media screen and (min-width: 768px){
-    .box-1 p{
+    .box-a p{
         padding-top:50px;
     }
 
-    .box-2 p{
+    .box-b p{
         padding-top:300px;
     }
 
-    .box-3 p{
+    .box-c p{
         padding-top:100px;
     }
 
-    .box-4 p{
+    .box-d p{
         padding-top:100px;
     }
 
-    .box-5 p{
+    .box-e p{
         padding-top:125px;
     }
 
-    .box-6 p{
+    .box-f p{
         padding-top:125px;
     }
 
-    .box-7 p{
+    .box-g p{
         padding-top:125px;
     }
 
-    .box-8 p{
+    .box-h p{
         padding-top:125px;
     }
 
-    .box-9 p{
+    .box-i p{
         padding-top:75px;
     }
 }
